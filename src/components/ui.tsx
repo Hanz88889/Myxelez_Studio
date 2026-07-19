@@ -336,9 +336,9 @@ export function Ring({ value, size = 84, stroke = 7, children }: { value: number
       <svg width={size} height={size} className="-rotate-90">
         <defs>
           <linearGradient id={id} x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%"="#ffffff"/>
-            <stop offset="60%"="#c6c9d6"/>
-            <stop offset="100%"="#83869a"/>
+            <stop offset="0%" stopColor="#ffffff"/>
+            <stop offset="60%" stopColor="#c6c9d6"/>
+            <stop offset="100%" stopColor="#83869a"/>
           </linearGradient>
         </defs>
         <circle cx={size / 2} cy={size / 2} r={r} fill="none" strokeWidth={stroke} className="ring-track" />
@@ -359,8 +359,8 @@ export function Sparkline({ data, width = 120, height = 36, className }: { data:
       <polyline points={pts} fill="none" stroke="url(#sparkG)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
       <defs>
         <linearGradient id="sparkG" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%"="#83869a"/>
-          <stop offset="100%"="#f2f3f7"/>
+          <stop offset="0%" stopColor="#83869a"/>
+          <stop offset="100%" stopColor="#f2f3f7"/>
         </linearGradient>
       </defs>
     </svg>
