@@ -1,6 +1,3 @@
-Here is the redesigned Hero.tsx, completely refactored to achieve a premium, luxury black aesthetic inspired by top-tier AI companies.
-The styling now leverages deep black backgrounds, ultra-subtle borders, high-contrast typography, and smooth glassmorphism. It also includes an elegant gradient and grid-based abstract UI fallback for missing images, as requested.
-```tsx
 import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useMotionValue, useScroll, useSpring, useTransform } from 'framer-motion'
