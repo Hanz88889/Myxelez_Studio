@@ -29,11 +29,11 @@ export function TrustStrip() {
 
 /* ─── Feature bento ─── */
 const TOOLS = [
-  { icon: ImageIcon, name: 'Image Generation', desc: 'Photon v2 renders gallery-grade stills with true-to-prompt fidelity.', img: '/media/gen-portrait.jpg', big: true },
+  { icon: ImageIcon, name: 'Image Generation', desc: 'Photon v2 renders gallery-grade stills with true-to-prompt fidelity.', img: 'gen-portrait.jpg', big: true },
   { icon: Clapperboard, name: 'Video Generation', desc: 'Motion v1 directs cinematic clips up to 8s at 1080p.', video: true },
-  { icon: ScanFace, name: 'Face Swap', desc: 'Identity-preserving swaps with 98.7% landmark lock.', img: '/media/gen-fashion.jpg' },
-  { icon: PenTool, name: 'Image Editing', desc: 'Inpaint, outpaint and relight with brush-level control.', img: '/media/gen-astro.jpg' },
-  { icon: Expand, name: 'Upscale 4K', desc: 'Canvas HD reconstructs texture detail, not just pixels.', img: '/media/gen-arch.jpg' },
+  { icon: ScanFace, name: 'Face Swap', desc: 'Identity-preserving swaps with 98.7% landmark lock.', img: 'gen-fashion.jpg' },
+  { icon: PenTool, name: 'Image Editing', desc: 'Inpaint, outpaint and relight with brush-level control.', img: 'gen-astro.jpg' },
+  { icon: Expand, name: 'Upscale 4K', desc: 'Canvas HD reconstructs texture detail, not just pixels.', img: 'gen-arch.jpg' },
   { icon: Eraser, name: 'Background Removal', desc: 'Pixel-clean cutouts in one click — ready for compositing.', cutout: true },
 ]
 
