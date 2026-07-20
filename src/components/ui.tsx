@@ -8,7 +8,7 @@ export function Logo({ size = 36, withWordmark = false, className }: { size?: nu
   return (
     <span className={cn('flex items-center gap-3', className)}>
       <img
-        src="/media/favicon.svg"
+        src="/favicon.svg"
         alt="Myxelez Studio"
         style={{ width: size, height: size }}
         className="rounded-[22%] object-cover ring-1 ring-edge shadow-[0_4px_16px_-4px_rgba(200,205,255,0.35)]"
