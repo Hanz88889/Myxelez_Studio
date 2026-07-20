@@ -30,7 +30,7 @@ export function TrustStrip() {
 /* ─── Feature bento ─── */
 const TOOLS = [
   { icon: ImageIcon, name: 'Image Generation', desc: 'Photon v2 renders gallery-grade stills with true-to-prompt fidelity.', img: 'public/media/gen-potrait.jpg', big: true },
-  { icon: Clapperboard, name: 'Video Generation', desc: 'Motion v1 directs cinematic clips up to 8s at 1080p.', video: true },
+  { icon: Clapperboard, name: 'Video Generation', video: '/media/gen-video-loop.mp4' },
   { icon: ScanFace, name: 'Face Swap', desc: 'Identity-preserving swaps with 98.7% landmark lock.', img: 'public/media/gen-fashion.jpg' },
   { icon: PenTool, name: 'Image Editing', desc: 'Inpaint, outpaint and relight with brush-level control.', img: 'public/media/gen-astro.jpg' },
   { icon: Expand, name: 'Upscale 4K', desc: 'Canvas HD reconstructs texture detail, not just pixels.', img: 'public/media/gen-arch.jpg' },
