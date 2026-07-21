@@ -14,7 +14,7 @@ export interface GalleryItem {
 }
 
 export const GALLERY: GalleryItem[] = [
-  { id: 'g1', src: '/media/gen-potrait.jpg', title: 'Chrome Reverie', prompt: 'Cinematic potrait of a woman draped in liquid silver light, futuristic noir, 85mm f/1.4, volumetric haze', model: 'MYX Photon v2', style: 'Neo Noir', ratio: '3:4', seed: 84120031, time: '12m ago', liked: true },
+  { id: 'g1', src: '/media/gen-portrait.jpg', title: 'Chrome Reverie', prompt: 'Cinematic potrait of a woman draped in liquid silver light, futuristic noir, 85mm f/1.4, volumetric haze', model: 'MYX Photon v2', style: 'Neo Noir', ratio: '3:4', seed: 84120031, time: '12m ago', liked: true },
   { id: 'g2', src: '/media/gen-city.jpg', title: 'Neon Rain District', prompt: 'Futuristic megacity in the rain, neon signage reflecting on wet streets, aerial light trails, moody silver-blue grade', model: 'MYX Photon v2', style: 'Neo Tokyo', ratio: '16:9', seed: 519902147, time: '38m ago', liked: false },
   { id: 'g3', src: '/media/gen-astro.jpg', title: 'Void Walker', prompt: 'Astronaut in a glossy obsidian suit standing in dense fog, dramatic rim light, minimal dark backdrop, film still', model: 'MYX Flux XL', style: 'Cinematic', ratio: '3:4', seed: 277441890, time: '1h ago', liked: true },
   { id: 'g4', src: '/media/gen-fashion.jpg', title: 'Argent Couture', prompt: 'High fashion editorial, sculptural metallic silver garment, dramatic studio lighting on charcoal backdrop', model: 'MYX Photon v2', style: 'Editorial', ratio: '3:4', seed: 902114556, time: '2h ago', liked: false },
