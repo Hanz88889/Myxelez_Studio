@@ -90,7 +90,7 @@ export const FOLDERS = [
 ]
 
 export const COLLECTIONS = [
-  { id: 'c1', name: 'Silver Studies', covers: ['/media/gen-chrome.jpg', '/media/gen-prism.jpg', '/media/gen-portrait.jpg'], count: 64 },
+  { id: 'c1', name: 'Silver Studies', covers: ['/media/gen-chrome.jpg', '/media/gen-prism.jpg', '/media/gen-potrait.jpg'], count: 64 },
   { id: 'c2', name: 'Dark Worlds', covers: ['/media/gen-city.jpg', '/media/gen-forest.jpg', '/media/gen-astro.jpg'], count: 112 },
   { id: 'c3', name: 'Product Heroes', covers: ['/media/gen-car.jpg', '/media/product-bg.jpg', '/media/gen-flower.jpg'], count: 38 },
   { id: 'c4', name: 'Horizon Lines', covers: ['/media/gen-desert.jpg', '/media/gen-ocean.jpg', '/media/gen-arch.jpg'], count: 27 },
@@ -118,7 +118,7 @@ export const TEMPLATES = [
   { id: 't2', name: 'Product Hero Banner', desc: 'E-commerce hero with reflection plane', cover: '/media/product-bg.jpg', category: 'Commerce', ratio: '16:9' },
   { id: 't3', name: 'Editorial Spread', desc: 'Fashion lookbook double page', cover: '/media/gen-fashion.jpg', category: 'Print', ratio: '3:2' },
   { id: 't4', name: 'Album Cover', desc: 'Square sleeve with type overlay zone', cover: '/media/gen-prism.jpg', category: 'Music', ratio: '1:1' },
-  { id: 't5', name: 'Story Sequence', desc: '9:16 vertical social story set', cover: '/media/gen-portrait.jpg', category: 'Social', ratio: '9:16' },
+  { id: 't5', name: 'Story Sequence', desc: '9:16 vertical social story set', cover: '/media/gen-potrait.jpg', category: 'Social', ratio: '9:16' },
   { id: 't6', name: 'Architectural Board', desc: 'Presentation board with elevations', cover: '/media/gen-arch.jpg', category: 'ArchViz', ratio: '16:9' },
 ]
 
@@ -154,7 +154,7 @@ export const ASSETS = [
 ]
 
 export const MOODBOARDS = [
-  { id: 'm1', name: 'Liquid Argentum', images: ['/media/gen-chrome.jpg', '/media/gen-prism.jpg', '/media/gen-portrait.jpg', '/media/gen-flower.jpg', '/media/gen-fashion.jpg'], count: 24 },
+  { id: 'm1', name: 'Liquid Argentum', images: ['/media/gen-chrome.jpg', '/media/gen-prism.jpg', '/media/gen-potrait.jpg', '/media/gen-flower.jpg', '/media/gen-fashion.jpg'], count: 24 },
   { id: 'm2', name: 'After Midnight', images: ['/media/gen-city.jpg', '/media/gen-forest.jpg', '/media/gen-ocean.jpg', '/media/gen-astro.jpg'], count: 31 },
   { id: 'm3', name: 'Silent Forms', images: ['/media/gen-arch.jpg', '/media/gen-desert.jpg', '/media/gen-car.jpg', '/media/product-bg.jpg'], count: 18 },
 ]
