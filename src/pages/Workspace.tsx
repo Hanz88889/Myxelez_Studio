@@ -97,7 +97,7 @@ export default function Workspace() {
     if ((tool === 'upscale' || tool === 'bgremove') && !target) {
       setTarget('/media/product-bg.jpg')
     }
-    if (tool === 'faceswap' && !source) setSource('/media/gen-portrait.jpg')
+    if (tool === 'faceswap' && !source) setSource('/media/gen-potrait.jpg')
     const effectiveTarget = target ?? ((tool === 'upscale' || tool === 'bgremove') ? '/media/product-bg.jpg' : null)
 
     setGenerating(true)
